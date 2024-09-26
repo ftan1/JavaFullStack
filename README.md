@@ -81,11 +81,6 @@ Ensure that MongoDB is running before starting the application. If MongoDB is no
 mongod --dbpath <path_to_your_data_directory>
 ```
 
-Alternatively, if using Docker, start MongoDB using Docker with:
-```bash
-docker run -d -p 27017:27017 --name mongodb mongo:latest
-```
-
 ---
 
 ## **API Endpoints**
